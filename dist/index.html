@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="styles/styles.css" rel="stylesheet" />
-        <link href="styles/mystles.css" rel="stylesheet" />
+        <link href="styles/mystyles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
@@ -29,20 +29,20 @@
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/post.html">Tableau</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="html/tableau.html">Tableau</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead focusimage" style="background-image: url(https://universe.byu.edu/wp-content/uploads/2022/01/BYU-Campus.jpg" alt="BYU Background">)">
+        <header class="masthead focusimage" id="homeimage" style="background-image: url(https://universe.byu.edu/wp-content/uploads/2022/01/BYU-Campus.jpg)">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
                             <h1>Landon Collins</h1>
-                            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                            <span class="subheading">Data Scientist, Husband, Entrepreneur</span>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,8 @@
         <!-- Main Content-->
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="col-md-10 col-lg-8 col-xl-7 columnwidth">
+                    <img id="portraitimage" src="images/portrait.jpg" width="250px;">
                     <!-- Post preview-->
                     <div class="post-preview">
                         <a href="post.html">
@@ -141,7 +142,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Landon Collins 2022</div>
                     </div>
                 </div>
             </div>

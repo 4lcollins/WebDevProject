@@ -1,20 +1,24 @@
-focusimage {
-  height: 200px;
+#homeimage {
+padding-bottom: 15rem;
 }
-/*
-header.masthead {
-  position: relative;
-  margin-bottom: 3rem;
-  padding-top: calc(8rem + 57px);
-  padding-bottom: 8rem;
-  background: no-repeat center center;
-  background-color: #6c757d;
-  background-size: cover;
-  background-attachment: scroll;
+
+#aboutmeimage {
+  padding-bottom: 17rem;
 }
-*/
+
+#resumeimage {
+  padding-bottom: 13rem;
+}
+
+#portraitimage {
+  right: 15px;
+}
 
 header.focusimage .page-heading,
 header.focusimage .site-heading {
   text-align: right;
+}
+
+.columnwidth {
+  width: 75%;
 }
