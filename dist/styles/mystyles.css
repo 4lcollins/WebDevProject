@@ -1,5 +1,24 @@
+body {
+  background-color: #e3e3e8;
+}
+
+header.focusimage .page-heading,
+header.focusimage .site-heading {
+  text-align: right;
+}
+
+div.columnwidth {
+  width: 75%;
+}
+
+#justifybuttons {
+  justify-content: center !important;
+  float:right;
+  margin: 15px;
+}
+
 #homeimage {
-padding-bottom: 15rem;
+  padding-bottom: 15rem;
 }
 
 #aboutmeimage {
@@ -11,14 +30,6 @@ padding-bottom: 15rem;
 }
 
 #portraitimage {
-  right: 15px;
-}
-
-header.focusimage .page-heading,
-header.focusimage .site-heading {
-  text-align: right;
-}
-
-.columnwidth {
-  width: 75%;
+  float:left;
+  padding: 30px;
 }
