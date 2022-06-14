@@ -23,13 +23,14 @@
     height: 55px;
 }
 
-.tableaupost1 { 
-    width: 50%;
+.tableaupost1 {
+    width: 49%;
 }
 
 .tableaupost2 {
-   width:50%;
-   left:850px;
+    position: relative;
+    width:49%;
+    float: right;
 }
 
 a {
