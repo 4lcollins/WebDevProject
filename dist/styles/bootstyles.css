@@ -1,6 +1,13 @@
+body {
+    background-color: #e3e3e8;
+}
+
+a {
+    color: black;
+}
+
 .posstyle {
     position:absolute;
-    /*border: 5px solid black;*/
     padding: 5px;
 }
 
@@ -31,8 +38,4 @@
     position: relative;
     width:49%;
     float: right;
-}
-
-a {
-    color: black;
 }
