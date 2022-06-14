@@ -14,27 +14,24 @@ body {
     margin: -8px 0px 0px 15px;
 }
 
-.postleft {
-    float: left;
+.graphleft {
+    float: left; 
     width: 49%;
 }
 
 .commentleft {
+    background-color: antiquewhite;
     float: left;
     width: 49%;
 }
 
-.postright {
+.graphright {
     float: right;
     width: 49%;
 }
 
 .commentright {
+    background-color: antiquewhite;
     float:right;
     width: 49%;
-}
-
-.footer {
-    position: fixed;
-    bottom:0px;
 }
