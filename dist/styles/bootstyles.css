@@ -6,36 +6,35 @@ a {
     color: black;
 }
 
-.posstyle {
-    position:absolute;
-    padding: 5px;
+body {
+    position:relative;
 }
 
-.navpos {
-    top: 100px;
-    left: 20px;
-    width: 300px;
+.nav {
+    margin: -8px 0px 0px 15px;
 }
 
-.contentpos {
-    top: 140px;
-    bottom: 100px;
-    width: 1260px;
-}
-
-.footerpos {
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    height: 55px;
-}
-
-.tableaupost1 {
+.postleft {
+    float: left;
     width: 49%;
 }
 
-.tableaupost2 {
-    position: relative;
-    width:49%;
+.commentleft {
+    float: left;
+    width: 49%;
+}
+
+.postright {
     float: right;
+    width: 49%;
+}
+
+.commentright {
+    float:right;
+    width: 49%;
+}
+
+.footer {
+    position: fixed;
+    bottom:0px;
 }
