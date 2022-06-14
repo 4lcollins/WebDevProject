@@ -33,3 +33,7 @@ div.columnwidth {
   float:left;
   padding: 30px;
 }
+
+.center {
+  align-items: center;
+}
